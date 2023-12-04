@@ -1,0 +1,50 @@
+body {
+    background-color: rgb(222, 221, 221);
+}
+
+
+
+.container .ql-editor {
+    min-height: 9in;
+    max-height: fit-content;
+    width: 8in;
+    padding: 2rem;
+    /* padding-top: 5rem; */
+    background-color: white;
+    margin: auto;
+    margin-top: 2rem;
+    z-index: -1;
+}
+
+.container .ql-toolbar.ql-snow {
+    position: sticky;
+    /* height: auto; */
+    top: 0px;
+    display: flex;
+    justify-content: center;
+    height: fit-content;
+    flex-wrap: wrap;
+    z-index: 100;
+    background-color: rgb(222, 221, 221);
+
+}
+
+.ql-formats>span {
+    width: fit-content;
+
+}
+
+@media print {
+    body {
+        background: none;
+
+    }
+
+    .container .ql-editor {
+        border: 1px solid gray;
+    }
+
+    .container .ql-toolbar.ql-snow {
+        display: none;
+    }
+}

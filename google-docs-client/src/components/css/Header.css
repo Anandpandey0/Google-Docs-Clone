@@ -1,0 +1,57 @@
+nav {
+    display: flex;
+    /* border: solid 2px black; */
+    height: 60px;
+    padding: 0rem 1rem;
+    text-align: center;
+    align-items: center;
+    background-color: white;
+}
+
+.image-container {
+    display: flex;
+    align-items: center;
+}
+
+.name-one {
+    font-size: x-large;
+    font-weight: bolder;
+    margin-right: 10px;
+}
+
+span {
+    color: grey;
+    font-size: x-large;
+}
+
+.left-navbar-items {
+    margin-left: 5rem;
+    padding: 20px;
+
+
+}
+
+.left-navbar-items a {
+    margin: 10px;
+    text-decoration: none;
+    color: black;
+    font-size: larger;
+    padding: 10px;
+    /* max-width: 20px; */
+
+}
+
+.left-navbar-items a:hover {
+    color: black;
+    font-weight: 600;
+}
+
+.right-navbar-items {
+    margin-left: auto;
+}
+
+.signInBtn {
+    padding: 10px 20px;
+    cursor: pointer;
+
+}
